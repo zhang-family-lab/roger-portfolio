@@ -52,3 +52,11 @@ To run this project locally on your machine:
    ```
 
 3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Customizing Content
+
+### Resume
+The resume file is located at `public/resume.pdf`. Please replace this file with your actual resume PDF.
+
+### Profile Photo
+The profile photo is located at `public/images/profile.jpg`. Please replace this file with your actual photo (keep the filename `profile.jpg` or update `components/Hero.tsx` if you use a different name/format).

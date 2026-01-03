@@ -65,7 +65,7 @@ export default function Hero() {
                             <div className="relative h-full w-full bg-slate-200 rounded-2xl overflow-hidden shadow-2xl">
                                 {/* Placeholder for Headshot */}
                                 <Image
-                                    src="https://placehold.co/800x1000/e2e8f0/1e293b?text=Roger+Zhang"
+                                    src="/images/profile.jpg"
                                     alt="Roger Zhang Headshot"
                                     fill
                                     className="object-cover"
