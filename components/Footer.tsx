@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer id="contact" className="bg-slate-900 border-t border-slate-800 text-slate-400 py-12">
+        <footer id="contact" className="bg-slate-900 border-t border-slate-800 text-slate-400 py-12 print:hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row justify-between items-center mb-8">
                     <div className="mb-4 md:mb-0">
@@ -11,16 +11,14 @@ export default function Footer() {
                         <p className="mt-1 text-sm text-slate-500">Scholar, Athlete, Artist.</p>
                     </div>
                     <div className="flex space-x-6 items-center">
-                        <a 
-                            href="/Roger_Zhang_Resume_2027.pdf" 
-                            target="_blank"
-                            rel="noopener noreferrer"
+                        <Link 
+                            href="/resume" 
                             className="text-slate-400 hover:text-white transition-colors"
-                            title="Download Resume"
+                            title="View Resume"
                         >
-                            <span className="sr-only">Download Resume</span>
+                            <span className="sr-only">View Resume</span>
                             <FileText className="h-6 w-6" />
-                        </a>
+                        </Link>
                         <a href="mailto:roger.zhangruizhe@gmail.com" className="text-slate-400 hover:text-white transition-colors" title="Email Me">
                             <span className="sr-only">Email</span>
                             <Mail className="h-6 w-6" />
