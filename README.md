@@ -14,6 +14,21 @@ pnpm dev
 bun dev
 ```
 
+If you see module errors, remove existing modules and reinstall npm module and next module
+
+```bash
+rm -rf node_modules package-lock.json
+npm cache clean --force
+rm -rf .next
+```
+
+then run command to test it
+
+```bash
+npm install
+```
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
