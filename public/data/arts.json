@@ -1,0 +1,166 @@
+{
+    "portfolio": [
+        {
+            "id": "art0",
+            "filename": "art0.jpg",
+            "period": "Middle School",
+            "title_en": "Gentle Lamb on the Meadow",
+            "title_zh": "草地上的温顺小羊",
+            "description_en": "A soft, painterly depiction of a young lamb, focusing on the texture of wool and the brightness of an open field.",
+            "description_zh": "通过柔和的笔触描绘了一只幼羊，重点表现了羊毛的质感以及开阔草地的明亮感。"
+        },
+        {
+            "id": "art1",
+            "filename": "art1.jpg",
+            "period": "Middle School",
+            "title_en": "The Smiling Crocodile",
+            "title_zh": "微笑的鳄鱼",
+            "description_en": "A vibrant character study using warm tones to give a typically fierce animal a friendly and approachable personality.",
+            "description_zh": "使用暖色调进行的生动形象练习，赋予了原本凶猛的动物一种友好、亲切的性格。"
+        },
+        {
+            "id": "art2",
+            "filename": "art2.jpg",
+            "period": "Middle School",
+            "title_en": "The Scaled Guardian",
+            "title_zh": "鳞甲守护者",
+            "description_en": "A detailed ink sketch of a dragon, showcasing intricate scale patterns and a dynamic, mythical silhouette.",
+            "description_zh": "一幅细节丰富的巨龙墨线素描，展示了复杂的鳞片纹路和充满动感的神秘轮廓。"
+        },
+        {
+            "id": "art3",
+            "filename": "art3.jpg",
+            "period": "Middle School",
+            "title_en": "Emotions of Nezha",
+            "title_zh": "哪吒的表情包",
+            "description_en": "A character expression sheet exploring six different emotional states through a stylized reimagining of a classic figure.",
+            "description_zh": "一张角色表情练习图，通过对经典人物形象的风格化重塑，探索了六种不同的情绪状态。"
+        },
+        {
+            "id": "art4",
+            "filename": "art4.jpg",
+            "period": "Middle School",
+            "title_en": "Dog Man: Ghost Catcher",
+            "title_zh": "神探狗狗：幽灵抓捕行动",
+            "description_en": "An energetic fan art piece inspired by popular graphic novels, featuring dynamic movement and a playful composition.",
+            "description_zh": "一幅受流行漫画启发的同人创作，体现了充满活力的动作设计和俏皮的画面构图。"
+        },
+        {
+            "id": "art5",
+            "filename": "art5.jpg",
+            "period": "Middle School",
+            "title_en": "Lotus Prince Nezha",
+            "title_zh": "灵珠降世：哪吒",
+            "description_en": "A full-body character design focusing on line work and the iconic accessories of the legendary hero.",
+            "description_zh": "一幅全身角色设计图，专注于线条的表现力以及这位传奇英雄标志性的服饰配件。"
+        },
+        {
+            "id": "art6",
+            "filename": "art6.jpg",
+            "period": "Middle School",
+            "title_en": "Garfield's New Style",
+            "title_zh": "加菲猫的新装",
+            "description_en": "A creative crossover sketch blending the classic Garfield character with modern street-style elements.",
+            "description_zh": "一张富有创意的跨界素描，将经典的加菲猫形象与现代街头风格元素相融合。"
+        },
+        {
+            "id": "art7",
+            "filename": "art7.jpg",
+            "period": "Middle School",
+            "title_en": "A Christmas Surprise",
+            "title_zh": "圣诞惊喜",
+            "description_en": "A heartwarming holiday illustration featuring a curious cat in a gift box, emphasizing festive colors and storytelling.",
+            "description_zh": "一幅温馨的节日插画，描绘了礼盒中一只好奇的小猫，强调了节日色彩和叙事感。"
+        },
+        {
+            "id": "art8",
+            "filename": "art8.jpg",
+            "period": "Middle School",
+            "title_en": "The Azure Swordswoman",
+            "title_zh": "青衣剑客",
+            "description_en": "A sophisticated character illustration incorporating traditional patterns and a cool color palette to evoke a sense of calm strength.",
+            "description_zh": "一幅精细的角色插画，融合了传统纹样和冷色调，传达出一种冷静而强大的力量感。"
+        },
+        {
+            "id": "art9",
+            "filename": "art9.jpg",
+            "period": "Elementary School",
+            "title_en": "Dreamy Forest",
+            "title_zh": "梦幻森林",
+            "description_en": "A creative use of watercolor to depict a mystical forest, showing an early interest in atmosphere and environment.",
+            "description_zh": "创意性地运用水彩描绘神秘森林，展现了早期对氛围感和环境表现的兴趣。"
+        },
+        {
+            "id": "art10",
+            "filename": "art10.jpg",
+            "period": "Elementary School",
+            "title_en": "Pure Imagination",
+            "title_zh": "纯真想象",
+            "description_en": "The starting point of the artistic journey—a vibrant, abstract world filled with childhood curiosity and unfiltered creativity.",
+            "description_zh": "艺术旅程的起点——一个充满童心好奇与未经过滤的创造力的彩色抽象世界。"
+        },
+        {
+            "id": "art11",
+            "filename": "art11.jpg",
+            "period": "Middle School",
+            "title_en": "Chromatic Landscape",
+            "title_zh": "色彩风景",
+            "description_en": "An impressionistic take on nature, focusing on the harmony of vibrant colors and the rhythmic movement of brushstrokes.",
+            "description_zh": "对大自然的印象派诠释，侧重于鲜艳色彩的和谐统一以及笔触的节奏感。"
+        },
+        {
+            "id": "art12",
+            "filename": "art12.jpg",
+            "period": "Middle School",
+            "title_en": "Composition in Light",
+            "title_zh": "光影构图",
+            "description_en": "A classic still life study focusing on the weight and volume of objects under a single light source.",
+            "description_zh": "经典的静物练习，专注于单一光源下物体重量感与体积感的呈现。"
+        },
+        {
+            "id": "art13",
+            "filename": "art13.jpg",
+            "period": "Middle School",
+            "title_en": "Perspective Study",
+            "title_zh": "透视研究",
+            "description_en": "An exploration of architectural depth and three-dimensional space through precise line work.",
+            "description_zh": "通过精准的线条勾勒，探索建筑深度与三维空间的表达。"
+        },
+        {
+            "id": "art14",
+            "filename": "art14.jpg",
+            "period": "High School",
+            "title_en": "The Cast Study",
+            "title_zh": "石膏像写生",
+            "description_en": "A rigorous academic study of light, shadow, and form. This sketch demonstrates fundamental skills in charcoal and the precision of anatomical observation.",
+            "description_zh": "对光影和形态的严谨学术研究。这幅素描展示了炭笔运用的基本功以及对解剖结构的精准观察。"
+        },
+        {
+            "id": "art15",
+            "filename": "art15.jpg",
+            "period": "High School",
+            "title_en": "Contrast & Soul",
+            "title_zh": "对比与灵魂",
+            "description_en": "A powerful exploration of identity using a bold red and black palette. This piece represents a shift from realistic observation to expressive storytelling.",
+            "description_zh": "运用大胆的红黑配色对身份认同进行的深度探索。这幅作品标志着从写实观察向表现主义叙事的转变。"
+        },
+        {
+            "id": "art16",
+            "filename": "art16.jpg",
+            "period": "High School",
+            "title_en": "The Thinker",
+            "title_zh": "沉思者",
+            "description_en": "A detailed portrait sketch focusing on human expression and the subtle textures of skin and hair.",
+            "description_zh": "细腻的人物肖像素描，专注于表情刻画以及皮肤和发丝的微妙质感。"
+        },
+        {
+            "id": "art17",
+            "filename": "art17.jpg",
+            "period": "Middle School",
+            "title_en": "Still Life: Observation",
+            "title_zh": "静物：观察",
+            "description_en": "An exercise in texture and materiality, capturing the subtle reflections and relationship between everyday objects.",
+            "description_zh": "一次关于质感与材质的练习，捕捉了日常物品之间微妙的反光与空间关系。"
+        }
+    ]
+}

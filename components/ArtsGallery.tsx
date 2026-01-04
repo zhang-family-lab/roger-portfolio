@@ -4,14 +4,14 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { X, ZoomIn } from "lucide-react";
+import artsData from "../public/data/arts.json";
 
-// Generate 18 placeholder artworks
-// NOTE: Ensure you have files named art0.jpg, art1.jpg ... art17.jpg in public/images/arts/
-const artworks = Array.from({ length: 18 }, (_, i) => ({
-    id: i + 1,
-    title: `Artwork ${i + 1}`,
-    type: i % 3 === 0 ? "Painting" : i % 3 === 1 ? "Photography" : "Digital Art",
-    src: `/images/arts/art${i}.jpg`,
+const artworks = artsData.portfolio.map((art) => ({
+    id: art.id,
+    title: art.title_en,
+    description: art.description_en,
+    period: art.period,
+    src: `/images/arts/${art.filename}`,
 }));
 
 export default function ArtsGallery() {
@@ -61,7 +61,7 @@ export default function ArtsGallery() {
                                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
                                     <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                                         <h4 className="text-white font-bold text-lg">{art.title}</h4>
-                                        <p className="text-slate-300 text-sm">{art.type}</p>
+                                        <p className="text-slate-300 text-sm line-clamp-2">{art.description}</p>
                                         <div className="mt-2 flex items-center text-white/80 text-xs uppercase tracking-wider font-medium">
                                             <ZoomIn className="w-4 h-4 mr-1" /> View Full
                                         </div>
@@ -117,7 +117,7 @@ export default function ArtsGallery() {
                             />
                             <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/90 via-black/50 to-transparent text-white rounded-b-lg pointer-events-none">
                                 <h3 className="text-2xl font-bold">{selectedArt.title}</h3>
-                                <p className="text-slate-300 text-lg">{selectedArt.type}</p>
+                                <p className="text-slate-300 text-lg">{selectedArt.description}</p>
                             </div>
                         </motion.div>
                     </motion.div>
