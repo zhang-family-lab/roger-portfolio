@@ -1,4 +1,4 @@
-import { Mail } from "lucide-react";
+import { Mail, FileText } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -15,11 +15,13 @@ export default function Footer() {
                             href="/Roger_Zhang_Resume_2027.pdf" 
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-sm font-semibold text-blue-400 hover:text-blue-300 transition-colors"
+                            className="text-slate-400 hover:text-white transition-colors"
+                            title="Download Resume"
                         >
-                            Download Resume
+                            <span className="sr-only">Download Resume</span>
+                            <FileText className="h-6 w-6" />
                         </a>
-                        <a href="mailto:roger.zhangruizhe@gmail.com" className="text-slate-400 hover:text-white transition-colors">
+                        <a href="mailto:roger.zhangruizhe@gmail.com" className="text-slate-400 hover:text-white transition-colors" title="Email Me">
                             <span className="sr-only">Email</span>
                             <Mail className="h-6 w-6" />
                         </a>
