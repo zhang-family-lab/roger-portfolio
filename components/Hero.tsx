@@ -22,10 +22,13 @@ export default function Hero() {
                         className="space-y-8"
                     >
                         <div className="space-y-4">
-                            <div className="flex flex-wrap items-center gap-3">
-                                <h2 className="text-blue-600 font-semibold tracking-wide uppercase text-sm">
-                                    Class of 2027 | GPA 3.8/4.2
-                                </h2>
+                            <div className="flex flex-wrap items-center gap-3 mb-2">
+                                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-blue-100 text-blue-700 border border-blue-200 shadow-sm">
+                                    🎓 Class of 2027 | GPA 3.8/4.2
+                                </span>
+                                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-yellow-100 text-yellow-800 border border-yellow-200 shadow-sm">
+                                    🥇 600+ Service Hours (PVSA Gold)
+                                </span>
                                 <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-700 border border-amber-200 shadow-sm">
                                     🏆 CM Level 10 Honors
                                 </span>
@@ -35,23 +38,16 @@ export default function Hero() {
                                 <span className="text-blue-600">& Community Leader.</span>
                             </h1>
                             <p className="text-xl text-slate-600 max-w-lg">
-                                Hi, I'm Roger Zhang. A student-scholar at Archbishop Mitty HS, dedicated to excellence on the field, on the canvas, and in my community.
+                                Hi, I'm Roger Zhang. A student-scholar at Archbishop Mitty HS, dedicated to excellence on the field, on the canvas, and in my community. Recipient of the President’s Volunteer Service Award (Gold) for 600+ Hours of Service.
                             </p>
                         </div>
 
                         <div className="flex flex-col sm:flex-row gap-4">
                             <a
-                                href="/resume.pdf"
+                                href="#academics"
                                 className="inline-flex items-center justify-center px-8 py-4 bg-slate-900 text-white rounded-2xl font-semibold hover:bg-slate-800 transition-transform active:scale-95 shadow-lg shadow-slate-900/20"
                             >
-                                <Download className="mr-2 h-5 w-5" />
-                                Download Resume
-                            </a>
-                            <a
-                                href="#soccer"
-                                className="inline-flex items-center justify-center px-8 py-4 bg-white text-slate-900 border border-slate-200 rounded-2xl font-semibold hover:bg-slate-50 hover:border-blue-200 transition-all active:scale-95"
-                            >
-                                Watch Highlights
+                                Explore Portfolio
                                 <ArrowRight className="ml-2 h-5 w-5" />
                             </a>
                         </div>

@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Roger Zhang | Portfolio",
-  description: "Academic Athlete, Artist, Pianist, & Community Leader.",
+  description: "Academic Athlete, Artist, Pianist, & Community Leader. Recipient of the President’s Volunteer Service Award Gold 2024.",
 };
 
 export default function RootLayout({

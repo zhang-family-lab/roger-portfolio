@@ -6,10 +6,11 @@ import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
+    { name: "Academics", href: "#academics" },
     { name: "Soccer", href: "#soccer" },
     { name: "Arts", href: "#arts" },
     { name: "Piano & Music", href: "#music" },
-    { name: "White Stag", href: "#white-stag" },
+    { name: "Leadership", href: "#white-stag" },
     { name: "Contact", href: "#contact" },
 ];
 
@@ -28,7 +29,7 @@ export default function Navbar() {
                     </div>
 
                     {/* Desktop Navigation */}
-                    <div className="hidden md:flex space-x-8">
+                    <div className="hidden md:flex items-center space-x-8">
                         {navLinks.map((link) => (
                             <a
                                 key={link.name}
@@ -38,6 +39,14 @@ export default function Navbar() {
                                 {link.name}
                             </a>
                         ))}
+                        <a
+                            href="/Roger_Zhang_Resume_2027.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-4 py-2 bg-slate-900 text-white text-sm font-semibold rounded-lg hover:bg-slate-800 transition-colors"
+                        >
+                            Resume
+                        </a>
                     </div>
 
                     {/* Mobile Menu Button */}
