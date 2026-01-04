@@ -22,11 +22,16 @@ export default function Hero() {
                         className="space-y-8"
                     >
                         <div className="space-y-4">
-                            <h2 className="text-blue-600 font-semibold tracking-wide uppercase text-sm">
-                                Class of 2027 | GPA 3.8/4.2
-                            </h2>
+                            <div className="flex flex-wrap items-center gap-3">
+                                <h2 className="text-blue-600 font-semibold tracking-wide uppercase text-sm">
+                                    Class of 2027 | GPA 3.8/4.2
+                                </h2>
+                                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-700 border border-amber-200 shadow-sm">
+                                    🏆 CM Level 10 Honors
+                                </span>
+                            </div>
                             <h1 className="text-5xl md:text-7xl font-bold text-slate-900 leading-tight">
-                                Athlete, Artist, <br />
+                                Athlete, Artist, Pianist, <br />
                                 <span className="text-blue-600">& Community Leader.</span>
                             </h1>
                             <p className="text-xl text-slate-600 max-w-lg">

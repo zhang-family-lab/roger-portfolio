@@ -18,27 +18,23 @@ export default function MusicSection() {
                         transition={{ duration: 0.6 }}
                     >
                         <h2 className="text-blue-600 font-semibold tracking-wide uppercase text-sm">
-                            Musical Journey
+                            Piano & Music
                         </h2>
                         <h3 className="mt-2 text-3xl md:text-4xl font-bold text-slate-900 mb-6">
-                            Principal Cellist
+                            Piano Performance
                         </h3>
                         <p className="text-lg text-slate-600 mb-6">
-                            Music has been my companion for over a decade. As the Principal Cellist of the school orchestra, I find discipline and expression in every bow stroke.
+                            Classical piano has been a cornerstone of my discipline and creative expression. Achieving <span className="font-bold text-slate-900">Level 10 with Honors</span> in the Certificate of Merit (CM) reflects years of technical study and artistic growth.
                         </p>
 
                         <div className="space-y-4">
                             <div className="flex items-center space-x-4">
                                 <div className="w-2 h-2 bg-blue-600 rounded-full" />
-                                <p className="font-medium text-slate-900">California Youth Symphony (Associate)</p>
+                                <p className="font-medium text-slate-900">Certificate of Merit (CM) - Level 10 Honors</p>
                             </div>
                             <div className="flex items-center space-x-4">
                                 <div className="w-2 h-2 bg-blue-600 rounded-full" />
-                                <p className="font-medium text-slate-900">CM Level 10 - Honors</p>
-                            </div>
-                            <div className="flex items-center space-x-4">
-                                <div className="w-2 h-2 bg-blue-600 rounded-full" />
-                                <p className="font-medium text-slate-900">Upcoming Performance: Winter Gala, Dec 15</p>
+                                <p className="font-medium text-slate-900">Classical Repertoire Focus</p>
                             </div>
                         </div>
                     </motion.div>
@@ -52,51 +48,17 @@ export default function MusicSection() {
                         className="relative"
                     >
                         <div className="absolute inset-0 bg-blue-100 rounded-3xl rotate-3 transform"></div>
-                        <div className="relative bg-white border border-slate-100 p-8 rounded-3xl shadow-2xl">
-                            <div className="aspect-square w-full bg-slate-100 rounded-2xl mb-8 relative overflow-hidden">
-                                <Image
-                                    src="https://placehold.co/500x500/1e293b/white?text=Cello+Performance"
-                                    alt="Cello Performance"
-                                    fill
-                                    className="object-cover"
-                                />
-                            </div>
-
-                            <div className="space-y-6">
-                                <div>
-                                    <h4 className="text-xl font-bold text-slate-900">Elgar Cello Concerto in E Minor</h4>
-                                    <p className="text-slate-500">Live Recording - 2025</p>
-                                </div>
-
-                                {/* Progress Bar */}
-                                <div className="space-y-2">
-                                    <div className="h-1 bg-slate-100 rounded-full overflow-hidden">
-                                        <div className="h-full w-1/3 bg-blue-600 rounded-full"></div>
-                                    </div>
-                                    <div className="flex justify-between text-xs text-slate-400 font-medium">
-                                        <span>2:15</span>
-                                        <span>7:30</span>
-                                    </div>
-                                </div>
-
-                                {/* Controls */}
-                                <div className="flex justify-between items-center">
-                                    <button className="text-slate-400 hover:text-slate-600">
-                                        <Volume2 className="w-5 h-5" />
-                                    </button>
-                                    <div className="flex items-center gap-6">
-                                        <button className="text-slate-400 hover:text-slate-900">
-                                            <SkipBack className="w-6 h-6" />
-                                        </button>
-                                        <button className="w-14 h-14 bg-slate-900 text-white rounded-full flex items-center justify-center hover:bg-slate-800 transition-colors shadow-lg shadow-slate-900/20 active:scale-95">
-                                            <Play className="w-6 h-6 ml-1" />
-                                        </button>
-                                        <button className="text-slate-400 hover:text-slate-900">
-                                            <SkipForward className="w-6 h-6" />
-                                        </button>
-                                    </div>
-                                    <div className="w-5" /> {/* Spacer for balance */}
-                                </div>
+                        <div className="relative bg-white border border-slate-100 p-2 rounded-3xl shadow-2xl">
+                            <div className="aspect-video w-full rounded-2xl overflow-hidden bg-slate-900">
+                                <iframe
+                                    width="100%"
+                                    height="100%"
+                                    src="https://www.youtube.com/embed/videoseries?list=PLzUh85PtcO4kREsV6rCvv9DEas-aDo196"
+                                    title="Piano Performance Playlist"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                    className="w-full h-full"
+                                ></iframe>
                             </div>
                         </div>
                     </motion.div>
